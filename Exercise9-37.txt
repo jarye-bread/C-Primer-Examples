@@ -1,0 +1,12 @@
+// Jarye Murphy
+// exercise 9.37 from c++ primer 
+
+Exercise 9.37: Why don’t list or array have a capacity member?
+
+array is fixed size and its size determined when you define a array 
+same with list
+
+vector and string only have the capacity because the containers
+they have allocated memory and are better suited to adding elements
+moving and copying around and allow them to shrink the space as well
+if allocated as well. 
