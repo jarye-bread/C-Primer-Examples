@@ -20,7 +20,7 @@ int main()
 	cin >> num;
 	cout << "Enter a denominator: " << std::endl;
 	cin >> denom;
-	cout << "the anser is: " << "\t" << num / denom << std::endl;
+	cout << "the answer is: " << "\t" << num / denom << std::endl;
 	system("Pause");
 	return 0;
 }
